@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+
+/*导航开始*/
+.lv{
+    color:#fe7028;
+    text-align: center;
+    line-height: 3em;
+}
+.img_a{
+    float:right;
+	padding-top: 0.5em;
+}
+.img_b{
+    padding-top: 0.3em;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+/*导航结束*/
+
+/*banner开始*/
+.banner{
+	margin:0 auto;
+	margin-top:4em;
+}
+
+   #a:hover{
+      transform:scale(2);
+	  transition:all 2000ms linear 1000ms;
+	} 
+   #b:hover{
+      transform: scale(2);
+	  transition:all 2000ms linear 1000ms;
+	} 
+   #c:hover{
+      transform: scale(2);
+	  transition:all 2000ms linear 1000ms;
+	} 
+/*banner结束*/
+
+/*内容开始*/
+.content{
+		margin-top:1em;
+	  color:#fff;
+}
+.content .row .col-xs-4{
+		padding:0.5em;
+}
+.con_row{
+      padding-top:1em;
+}
+.content_a{
+     position:absolute;
+}
+/*内容结束*/
+.bottom{
+	  margin-top:2em;
+	  padding-bottom:1em;
+}
+.bottom_a{
+	  text-align:center;
+	  color:#fe7028;
+}
+.content .row img{
+	width:100%;
+}
+/*底部开始*/
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.bott{
+      margin-top:4em;
+}
+.nav_bot{
+     background: #f6f6f6;
+}
+
+.btn-group, .btn-group-vertical {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+	  margin-top:0.5em;
+}
+.dropdown-menu{
+    min-width:0px;
+}
+/*底部结束*/

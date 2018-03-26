@@ -1,0 +1,380 @@
+﻿<!doctype html>
+<html>
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,user-scalable=no,minimal-ui">
+   <link href="style/bootstrap.min.css" rel="stylesheet">
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <link href="css/gouwuche.css" rel="stylesheet"/>
+   <title>我的订单</title>
+ </head>
+ <body>
+ <!--导航开始-->
+    <div class="container-fulid navbar-fixed-top">
+       <nav class="navbar navbar-default ">
+          <div class="row">
+		     <div class="col-xs-4">
+			    <img src="images/home.png" class="img_b img-responsive"/>
+			 </div>
+	         <div class="col-xs-4">
+	            <p class="lv">我的订单</p>
+			 </div>	
+			 <div class="col-xs-4" >
+				   <a href="">
+				      <img src="images/userlogin.png" class="img_a img-responsive"/>
+				   </a>
+				   <a href="">
+				      <img src="images/goback.png" class="img_c img-responsive"/>
+				   </a>
+			 </div>	
+	      </div>
+       </nav>	
+    </div>
+  <!--导航结束-->
+  
+  <!--内容开始-->
+   <div class="container-fulid cont">
+      <div class="row">
+	     <div class="col-md-4"></div>
+		 <div class="col-md-4">
+		    <ul id="myTab" class="nav nav-tabs" >
+	           <li class="active text-center" style="width:50%;"> <a href="#home" data-toggle="tab"> 购物车</a></li>
+	           <li class="text-center" style="width:50%;"><a href="#ios" data-toggle="tab" >购买列表</a></li>
+	        </ul>
+			<div id="myTabContent" class="tab-content">
+			   <div class="tab-pane fade in active" id="home">
+			   
+			     <!--购物车内容开始-->
+				  <div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				    
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_c.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <div class="col-xs-6">
+					  <span>数量</span>
+					  </div>
+					 <span style="float:right; font-size:1em">
+					 <button id="btnb" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">-</button>
+					 <input  class="text-center form-control" style="width:2em;height:1.5em;display:inline;padding:0px;" type="text" value="1" />
+					 <button id="btna" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">+</button>	
+					 </span>
+					 <div id="ddan" class="col-xs-6" style="bottom:0px;">
+					  <span >单价<span style="color:blue">￥<span class="danjia">592</span></span></span>
+					  </div>
+					  <div id="zzong" class="col-xs-6 text-center" style="padding:0px;">
+					   <span>总价<span >￥<span class="zongjia">591</span></span></span>
+					   </div>
+					  <p style="float:right;margin-top:0.5em;">是否结算:<input name="jiesuan" type="checkbox" value=1 /></p> 
+				  </div>
+				</div>
+				  
+			     <!--购物车内容开始-->
+				  <div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				   
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_b.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <div class="col-xs-6">
+					  <span>数量</span>
+					  </div>
+					 <span style="float:right; font-size:1em">
+					 <button id="btnb" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">-</button>
+					 <input  class="text-center form-control" style="width:2em;height:1.5em;display:inline;padding:0px;" type="text" value="1" />
+					 <button id="btna" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">+</button>	
+					 </span>
+					 <div id="ddan" class="col-xs-6" style="bottom:0px;">
+					  <span >单价<span style="color:blue">￥<span class="danjia">592</span></span></span>
+					  </div>
+					  <div id="zzong" class="col-xs-6 text-center" style="padding:0px;">
+					   <span>总价<span >￥<span class="zongjia">591</span></span></span>
+					   </div>
+					  <p style="float:right;margin-top:0.5em;">是否结算:<input name="jiesuan" type="checkbox" value=1 /></p> 
+				  </div>
+				</div>
+				
+				 <!--购物车内容开始-->
+				  <div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				   
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_d.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <div class="col-xs-6">
+					  <span>数量</span>
+					  </div>
+					 <span style="float:right; font-size:1em">
+					 <button id="btnb" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">-</button>
+					 <input  class="text-center form-control" style="width:2em;height:1.5em;display:inline;padding:0px;" type="text" value="1" />
+					 <button id="btna" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">+</button>	
+					 </span>
+					 <div id="ddan" class="col-xs-6" style="bottom:0px;">
+					  <span >单价<span style="color:blue">￥<span class="danjia">592</span></span></span>
+					  </div>
+					  <div id="zzong" class="col-xs-6 text-center" style="padding:0px;">
+					   <span>总价<span >￥<span class="zongjia">591</span></span></span>
+					   </div>
+					  <p style="float:right;margin-top:0.5em;">是否结算:<input name="jiesuan" type="checkbox" value=1 /></p> 
+				  </div>
+				</div>
+				
+				 <!--购物车内容开始-->
+				  <div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				   
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_a.jpg" alt="">
+				   </div>
+				 
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <div class="col-xs-6">
+					  <span>数量</span>
+					  </div>
+					 <span style="float:right; font-size:1em">
+					 <button id="btnb" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">-</button>
+					 <input  class="text-center form-control" style="width:2em;height:1.5em;display:inline;padding:0px;" type="text" value="1" />
+					 <button id="btna" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">+</button>	
+					 </span>
+					 <div id="ddan" class="col-xs-6" style="bottom:0px;">
+					  <span >单价<span style="color:blue">￥<span class="danjia">592</span></span></span>
+					  </div>
+					  <div id="zzong" class="col-xs-6 text-center" style="padding:0px;">
+					   <span>总价<span >￥<span class="zongjia">591</span></span></span>
+					   </div>
+					  <p style="float:right;margin-top:0.5em;">是否结算:<input name="jiesuan" type="checkbox" value=1 /></p> 
+				  </div>
+				</div>
+				 
+			     <!--购物车内容开始-->
+				  <div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				  
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_e.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <div class="col-xs-6">
+					  <span>数量</span>
+					  </div>
+					 <span style="float:right; font-size:1em">
+					 <button id="btnb" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">-</button>
+					 <input  class="text-center form-control" style="width:2em;height:1.5em;display:inline;padding:0px;" type="text" value="1" />
+					 <button id="btna" class="btnn btn-warning" style="border:1px solid transparent; border-radius:4px;">+</button>	
+					 </span>
+					 <div id="ddan" class="col-xs-6" style="bottom:0px;">
+					  <span >单价<span style="color:blue">￥<span class="danjia">592</span></span></span>
+					  </div>
+					  <div id="zzong" class="col-xs-6 text-center" style="padding:0px;">
+					   <span>总价<span >￥<span class="zongjia">591</span></span></span>
+					   </div>
+					  <p style="float:right;margin-top:0.5em;">是否结算:<input name="jiesuan" type="checkbox" value=1 /></p> 
+				  </div>
+				</div>
+
+                <div class="thumbnail row my_img text-right" style="margin-bottom:4em;"> 
+				   <a id="huoqu" class="btn btn-danger btn-lg">立即结算</a>
+                    <script>
+					    $(document).ready(function(){
+						var obj=document.getElementsByName("jiesuan");
+						  $("#huoqu").click(function(){
+						   
+							 var check_val=[];
+							 for(k in obj){
+							   if(obj[k].checked){
+								   check_val[k]=obj[k].value; 
+								   }
+								   
+							  }
+							  
+						  }) 
+					   })
+					</script>
+				</div>
+                
+			   </div>
+			  <!--以上为购物列表-->
+			   <div class="tab-pane fade" id="ios">
+			    <!--订单列表内容开始-->
+				 <div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				   
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_b.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <p><span>购买数量：</span><span>10</span></p>
+					 <p><span>消费金额：</span><span>10</span><span>元</span></p>
+				  </div>
+				</div>
+				
+				<div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				   
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_a.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <p><span>购买数量：</span><span>10</span></p>
+					 <p><span>消费金额：</span><span>10</span><span>元</span></p>
+				  </div>
+				</div>
+				
+				<div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				   
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_c.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <p><span>购买数量：</span><span>10</span></p>
+					 <p><span>消费金额：</span><span>10</span><span>元</span></p>
+				  </div>
+				</div>
+				
+				<div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_d.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <p><span>购买数量：</span><span>10</span></p>
+					 <p><span>消费金额：</span><span>10</span><span>元</span></p>
+				  </div>
+				</div>
+				
+				<div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				   
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_c.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <p><span>购买数量：</span><span>10</span></p>
+					 <p><span>消费金额：</span><span>10</span><span>元</span></p>
+				  </div>
+				</div>
+				
+				<div class="thumbnail row my_img" style="margin-bottom:0px;"> 
+				  
+					<div style="float:left; width:33%;" >
+					 <img class="img-responsive img-thumbnail"  src="images/con_e.jpg" alt="">
+				   </div>
+				  
+				  <div class="col-xs-8 row" style="margin-top:5px;">
+					 <p><b>这里总共有8个字</b></p>
+					 <p><span>购买数量：</span><span>10</span></p>
+					 <p><span>消费金额：</span><span>10</span><span>元</span></p>
+				  </div>
+				</div>
+			   <!--订单列表内容开始-->
+			  </div>
+		   </div>
+		   
+		 </div>
+		 <div class="col-md-4"></div>
+	  </div>
+   </div>
+  <!--内容结束-->
+  <script>
+   $(document).ready(function(){
+		   //涉及到的方法  Next下一个元素   prev上一个元素  siblings同级元素  parent父元素
+		     var i=1;
+		    $(".btnn").click(function(){
+			           var id=$(this).attr("id");
+				 if(id=='btna'){
+				       var input=$(this).prev("input");
+				       var danjia=$(this).parent().siblings("#ddan").children("span").children('span').children('.danjia').html();
+				       var zongjia=$(this).parent().siblings("#zzong").children("span").children('span').children('.zongjia');	      
+				       var shu=input.val();
+					   input.val(parseInt(shu)+1);
+					   zongjia.html(input.val()*danjia);
+				 }else if(id=='btnb'){
+				       var input=$(this).next("input");
+				       var danjia=$(this).parent().siblings("#ddan").children("span").children('span').children('.danjia').html();
+				       var zongjia=$(this).parent().siblings("#zzong").children("span").children('span').children('.zongjia');	
+					   var shu=input.val();
+					   if(shu<=1){
+					      input.val('1');
+						  zongjia.html(danjia);
+					   }else{
+					     input.val(parseInt(shu)-1);
+						 zongjia.html(input.val()*danjia);
+						}
+				 }
+			})
+		   
+		 })
+				
+  </script>
+  
+  <div class="bottom">
+	      <p class="bottom_a">企业网站模板</p>
+   </div>
+  <!--底部开始-->
+ <div class="container-fulid bott">
+	 <nav class="navbar navbar-default navbar-fixed-bottom nav_bot">
+	    <div class="row">
+		   <div class="col-md-4"></div>
+		   <div class="col-md-4">
+	          <div class="caidan">
+	             <div class="row">
+		            <div class="col-xs-4">
+				       <div class="btn-group dropup">
+					      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">小二推荐</button>
+						  <ul class="dropdown-menu" role="menu">
+						     <li><a href="redian.html">当季热卖</a></li>
+						     <li><a href="xianshi.html">限时特卖</a></li>
+						     <li><a href="qingcang.html">清仓秒杀</a></li>
+						     <li><a href="meiri.html">每日推荐</a></li>
+						  </ul>
+					   </div>
+				    </div>
+				
+				    <div class="col-xs-4">
+				       <div class="btn-group dropup">
+					      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">旅游超市</button>
+						  <ul class="dropdown-menu" role="menu">
+						     <li><a href="zhoumo.html">目的地</a></li>
+						     <li><a href="paihang.html">排行榜</a></li>
+						     <li><a href="sousuo.html">旅游搜索</a></li>
+						     <li><a href="zixun.html">在线咨询</a></li>
+						  </ul>
+					   </div>
+				    </div>
+				
+				    <div class="col-xs-4">
+				       <div class="btn-group dropup">
+					      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">订单处理</button>
+						  <ul class="dropdown-menu" role="menu">
+						     <li><a href="dingdan.html">我的订单</a></li>
+						     <li><a href="">会员资料</a></li>
+						     <li><a href="">关联微信</a></li>
+						     <li><a href="zixun.html">联系我们</a></li>
+						     <li><a href="">进入主站</a></li>
+						  </ul>
+					   </div>
+				    </div>
+		         </div>
+		      </div>
+		  </div>
+		  <div class="col-md-4"></div>
+		</div>
+	   </nav>
+  </div>
+  <!--底部结束-->
+ </body>
+</html>
